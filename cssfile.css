@@ -1,0 +1,54 @@
+.inputBlock{
+  position:absolute;
+  top:50px;
+  left:100px;
+  right: 100px;
+}
+.typeSwitchBlock{
+  position:absolute;
+  top:120px;
+  left:100px;
+  right:100px;
+}
+.switchButton{
+  width: 100px;
+  height:30px;
+  font-style: italic;
+
+}
+.threeGifBlock{
+  position: absolute;
+  height: 550px;
+}
+.leftGif{
+  position: inherit;
+  left:0px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+}
+.centerGif{
+  position: inherit;
+  left:530px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+}
+.rightGif{
+  position: inherit;
+  left:1060px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+}
+.generalBlock{
+  position: absolute;
+  top:250px;
+  text-align: center;
+}
+.prevWord{
+  position: absolute;
+  top:70px;
+  left:500px;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./dist/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="cssfile.css">
+</head>
+<body>
+  <div class="inputBlock">
+    <input id="input" style="width:305px; height: 50px; font-size: large"; placeholder="On init" oninput="mashine.buttonClick()" autofocus>
+    <button style="width:80px; height: 50px; font-style: italic; font-size: large"; onclick="mashine.buttonClick()">Try!</button>
+  </div>
+  <div class="typeSwitchBlock">
+    <button id="toGifButton" class="switchButton" onclick="mashine.typeButtonClick(0)" style="background-color: red">Gifs</button>
+    <button id="toStickersButton" class="switchButton" onclick="mashine.typeButtonClick(1)">Stickers</button>
+    <button id="toMySavesButton" class="switchButton" onclick="mashine.typeButtonClick(2)">Saves</button>
+  </div>
+  <div id="prevWord" class="prevWord">Chosed word: NONE</div>
+  <div id="gifBlock" class="generalBlock"></div>
+  <div id="stickerBlock" class="generalBlock" style="visibility: hidden"></div>
+  <div id="myBlock" class="generalBlock" style="visibility: hidden"></div>
+</body>
+<script>
+  isVisible();
+</script>
+</html>
